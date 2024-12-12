@@ -1,0 +1,70 @@
+* {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body{
+   
+    background-image:url(./img/yoda.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+
+  }
+  
+  .container{
+   
+    justify-content: center;
+    align-items: center;
+
+  }
+
+
+  /* Buton Stilleri */
+ button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    
+    
+  }
+  
+  .btn-show {
+    background-color: rgb(114, 216, 114);
+   
+   
+  }
+  
+  .btn-hide {
+    background-color: red;
+    
+  }
+
+  
+  .form-check-label{
+    color: aliceblue;
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+    
+    
+  }
+
+  .card{
+   
+    text-align: center;
+    color: aliceblue;
+    overflow: auto;
+  }
+
+  .card-text{
+    text-transform: capitalize;
+  }
